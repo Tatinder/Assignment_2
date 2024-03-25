@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.print-area {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.print-area .header {
+    width: 100%;
+    height: 300px;
+    background-color: #b6d6d2;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Added to horizontally center content */
+}
+
+.header img {
+    border-radius: 0px;
+    width: 190px;
+    height: 190px;
+    border: 1px solid black;
+    box-shadow: 3px 3px 10px black;
+    margin-right:70px;/* Adjust this value as needed */
+   
+}
+
+.header-text {
+    color: white;
+    width: 50%;
+    margin-left: auto;
+}
+
+.header-text h1 {
+    font-size: 70px;
+    font-weight: normal;
+}
+
+.header-text p {
+    font-size: 20px;
+    color: black;
+}
+
+/* Reset default styles */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* styles,colour,font design of body */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: burgundy;
+    color: black;
+    padding: 20px;
+}
+.content{ 
+/* all content after header*/
+    display:flex;
+    flex-wrap:wrap;
+    
+}
+
+/* Desgin left side of content */
+.left-side {
+  width: 35%;
+  padding: 25px;
+  background-color: #617d88;
+color:white;
+    text-align:justify;
+} 
+/* design right area of content */
+.right-side {
+  width: 65%;
+    padding:30px;
+  background-color:white;
+}
+.right-side h1{  
+/* right side desgin,font and space */
+    font-size:35px;
+font-weight:normal;
+    padding-left:8px;
+    border-bottom-style: double;
+}
+.right-side p{
+    
+/* right side paragraph space,colour,font size etc. */
+    padding-left:7px;
+    text-align:justify;
+    font-size:17px;
+    color: black;
+    margin-top:10px;
+    
+    
+}
+/* Media query for mobile view */
+@media only screen and (max-width: 600px) {
+    .print-area .header {
+        height: auto; /*  height for mobile */
+    }
+    
+    .header img {
+        width: 150px; /* image size for mobile */
+        height: 150px;
+    }
+    
+    .header-text {
+        width: 100%; /*  text full width for mobile */
+        margin-left: -20; /* Remove left margin */
+        padding: 10px; /* padding for better spacing */
+    }
+}

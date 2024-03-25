@@ -1,0 +1,84 @@
+
+body {
+    font-family: Serif;
+    margin: 0;
+    padding: 0;
+} 
+header {
+    background-color: #b6d6d2;
+    color: #fff;
+    padding: 20px;
+}
+
+
+
+
+footer {
+    background-color:  #b6d6d2;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    
+}
+
+/* Specific Page Styles */
+.intro {
+    text-align: center;
+    padding: 10px;
+}
+
+.resume-details {
+    padding: 20px;
+}
+
+.contact-form {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    background-color: #617d88;
+    color: #fff;
+    border: none;
+    border-bottom: 0px;
+    
+}
+
+.contact-form button:hover {
+    background-color:#b6d6d2;
+}
+nav {
+    background-color: #b6d6d2;
+    padding: 30px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 50px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
